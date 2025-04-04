@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/Negro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categorias"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/blanco"
+            android:paddingBottom="16dp"/>
+
+        <!-- Electrónica -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@color/Negro"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/electronica"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/electronicayprocutos"
+                android:textSize="18sp"
+                android:textColor="@color/blanco"
+                android:layout_marginStart="70dp"/>
+        </FrameLayout>
+
+        <!-- Ropa -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@color/Negro"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ropa"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ropaycantidadproducto"
+                android:textSize="18sp"
+                android:textColor="@color/blanco"
+                android:layout_marginStart="70dp"/>
+        </FrameLayout>
+
+        <!-- Hogar -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@color/Negro"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/hogar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blanco"
+                android:text="@string/hogarcantidadproducto"
+                android:textSize="18sp"
+                android:layout_marginStart="70dp"/>
+        </FrameLayout>
+
+        <!-- Deportes -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@color/Negro"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/deportes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blanco"
+                android:text="@string/deportescantidadproducto"
+                android:textSize="18sp"
+                android:layout_marginStart="70dp"/>
+        </FrameLayout>
+
+        <!-- Accesorios -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@color/Negro"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/accesorios"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blanco"
+                android:text="@string/accesorioscantidadproducto"
+                android:textSize="18sp"
+                android:layout_marginStart="70dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>

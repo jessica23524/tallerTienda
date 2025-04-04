@@ -1,0 +1,54 @@
+<resources>
+    <string name="nombre_app">TWINSWLS</string>
+    <string name="minombre">Jessica Alvarez</string>
+    <string name="Cuerpo">Inicia una nueva aventura con TWINS
+        y descubre una nueva forma de ver el mundo </string>
+    <string name="registro">Regístrate</string>
+    <string name="Comienza">Comienza</string>
+    <string name="ingresa">Ingresar</string>
+    <string name="ingresagoogle">Ingresa Con Google</string>
+    <string name="recuperarcontraseña">Recupera Tu Contraseña</string>
+    <string name="Partesuperior">La aventura está por iniciar,     por favor inicia sesión</string>
+    <string name="NotieneCuenta">No tienes cuenta?</string>
+    <string name="NombreUsuario">Ingrese su Nombre (se va a tomar como Usuario)</string>
+    <string name="Apellido">Ingrese el Apellido</string>
+    <string name="Correo">Ingrese un Correo Electrónico</string>
+    <string name="Telefono">Ingrese Teléfono</string>
+    <string name="TelefonoConfirmacion">Confirmación Contraseña</string>
+    <string name="Terminos"> Acepta Términos y Condiciones</string>
+    <string name="TextoInstructivo"> Bienvenido a TWINSWLS por favor ingreasa los siguientes datos ára registrarte y para que puedas disfrutar de nuestra app
+</string>
+
+    <string name="RecuperarcontrasenaText">Si has olvidado tu contraseña por favor ingresa tu correo y te enviaremos las instrucciones de recuperación</string>
+    <string name="editar">Editar</string>
+    <string name="nonbree">Nombre:</string>
+    <string name="apellidoo">Apellido:</string>
+    <string name="Correoo">Correo Electrónico:</string>
+    <string name="TelefonoPeril">Teléfono</string>
+    <string name="enviaSolicitudCambiooPeril">Enviar</string>
+    <string name="salud">Tu Salud</string>
+    <string name="categorias">Categorías</string>
+    <string name="productos">Productos</string>
+    <string name="carrito">Carrito</string>
+    <string name="perfil">Perfil</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="inicio">Inicio</string>
+    <string name="pantalla_de_inicio">Pantalla de Inicio</string>
+    <string name="pantalla_de_productos">Pantalla de Productos</string>
+    <string name="navigation_drawer_open">Cerrar</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="bienvenido_a_twinswls">Bienvenido a TWINSWLS</string>
+    <string name="mensaje_principal">En esta tienda podras encontrar los ultimos productos para tu hogar a muy buen precio</string>
+    <string name="categoria">Categoria</string>
+    <string name="hogar">Hogar</string>
+    <string name="ropa">Ropa</string>
+    <string name="electronicayprocutos">Electrónica - 25 productos</string>
+    <string name="ropaycantidadproducto">Ropa - 40 productos</string>
+    <string name="hogarcantidadproducto">Hogar - 15 productos</string>
+    <string name="deportescantidadproducto">Deportes - 20 productos</string>
+    <string name="accesorioscantidadproducto">Accesorios - 30 productos</string>
+    <string name="cambiar_foto">Cambiar Foto</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+
+
+</resources>

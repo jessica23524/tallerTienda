@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/InicioFragment">
+
+    <fragment
+        android:id="@+id/InicioFragment"
+        android:name="com.example.taller2.fragments.InicioFragment"
+        app:defaultNavHost="true"
+        android:label="@string/inicio" />
+    <fragment
+        android:id="@+id/ProductosFragment"
+        android:name="com.example.taller2.fragments.ProductosFragment"
+        app:defaultNavHost="true"
+        android:label="@string/productos" />
+    <fragment
+        android:id="@+id/CarritoFragment"
+        android:name="com.example.taller2.fragments.CarritoFragments"
+        app:defaultNavHost="true"
+        android:label="@string/carrito" />
+    <fragment
+        android:id="@+id/CategoriasFragment"
+        android:name="com.example.taller2.fragments.CategoriaFragments"
+        app:defaultNavHost="true"
+        android:label="@string/categoria" />
+    <fragment
+        android:id="@+id/PerfilFragment"
+        android:name="com.example.taller2.fragments.PerfilFragment"
+        app:defaultNavHost="true"
+        android:label="@string/perfil" />
+
+</navigation>

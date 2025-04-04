@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azuloscuro"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/ImagenUsuario"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/usuario" />
+
+        <TextView
+            android:id="@+id/LetreoNombreUsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nonbree"
+            android:fontFamily="@font/abyssinica_sil"
+            android:textColor="@color/blanco"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/NombreUsuarioo"
+            style="@style/EditTexRounded"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:fontFamily="@font/abyssinica_sil"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/LetreApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abyssinica_sil"
+            android:textColor="@color/blanco"
+            android:text="@string/apellidoo"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/ApellidoUsua"
+            style="@style/EditTexRounded"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="@font/abyssinica_sil"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/letreCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Correoo"
+            android:fontFamily="@font/abyssinica_sil"
+            android:textColor="@color/blanco"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/CorreoUsua"
+            style="@style/EditTexRounded"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="@font/abyssinica_sil"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/letreTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TelefonoPeril"
+            android:fontFamily="@font/abyssinica_sil"
+            android:textColor="@color/blanco"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/telefono"
+            style="@style/EditTexRounded"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:fontFamily="@font/abyssinica_sil"
+            android:inputType="phone"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/editardatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/editar"
+            android:backgroundTint="@color/blanco"
+            android:textColor="@color/azul"
+            android:fontFamily="@font/abyssinica_sil"
+            app:strokeColor="#223962"
+            app:strokeWidth="3dp"/>
+        <Button
+            android:id="@+id/salud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salud"
+            android:backgroundTint="@color/blanco"
+            android:textColor="@color/azul"
+            android:fontFamily="@font/abyssinica_sil"
+            app:strokeColor="@color/azulosnegro"
+            app:strokeWidth="3dp"/>
+
+    </LinearLayout>
+</ScrollView>
