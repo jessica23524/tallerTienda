@@ -48,7 +48,8 @@ appBarConfiguration = AppBarConfiguration(
         R.id.InicioFragment,
         R.id.CategoriasFragment,
         R.id.ProductosFragment,
-        R.id.CarritoFragment
+        R.id.CarritoFragment,
+        R.id.PerfilFragment
     ),
     drawerLayout
 )

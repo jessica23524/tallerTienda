@@ -1,0 +1,23 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/productosLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Producto 1 -->
+        <include layout="@layout/item_producto_electronica" />
+
+        <!-- Producto 2 -->
+        <include layout="@layout/item_producto" />
+
+        <!-- Producto 3 -->
+        <include layout="@layout/itemproductoelectrica" />
+
+
+    </LinearLayout>
+</ScrollView>

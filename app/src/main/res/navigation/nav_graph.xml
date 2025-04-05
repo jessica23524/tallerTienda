@@ -28,6 +28,23 @@
         android:id="@+id/PerfilFragment"
         android:name="com.example.taller2.fragments.PerfilFragment"
         app:defaultNavHost="true"
-        android:label="@string/perfil" />
+        android:label="@string/perfil">
+    <action
+        android:id="@+id/action_editarperfilde_perfilFragment"
+        app:destination="@id/editarperfilFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/editarperfilFragment"
+        android:name="com.example.taller2.fragments.EditarperfilFragment"
+        android:label="Editar Perfil" >
+        <action
+            android:id="@+id/action_editarperfilde_perfilFragment"
+            app:destination="@id/PerfilFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_categoriaFragments_to_listaPorCategoriaFragment"
+        app:destination="@id/ProductosFragment" />
 
 </navigation>

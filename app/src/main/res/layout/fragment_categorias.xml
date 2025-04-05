@@ -22,6 +22,7 @@
 
         <!-- Electrónica -->
         <FrameLayout
+            android:id="@+id/frameElectronica"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
@@ -29,21 +30,22 @@
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/electronica"/>
+                android:layout_width="89dp"
+                android:layout_height="76dp"
+                android:src="@drawable/electronica" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
                 android:text="@string/electronicayprocutos"
-                android:textSize="18sp"
                 android:textColor="@color/blanco"
-                android:layout_marginStart="70dp"/>
+                android:textSize="18sp" />
         </FrameLayout>
 
         <!-- Ropa -->
         <FrameLayout
+            android:id="@+id/frameRopa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
@@ -51,9 +53,9 @@
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/ropa"/>
+                android:layout_width="90dp"
+                android:layout_height="84dp"
+                android:src="@drawable/ropa" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -61,21 +63,22 @@
                 android:text="@string/ropaycantidadproducto"
                 android:textSize="18sp"
                 android:textColor="@color/blanco"
-                android:layout_marginStart="70dp"/>
+                android:layout_marginStart="120dp"/>
         </FrameLayout>
 
         <!-- Hogar -->
         <FrameLayout
+            android:id="@+id/frameHogar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="12dp"
+            android:padding="10dp"
             android:background="@color/Negro"
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/hogar"/>
+                android:layout_width="94dp"
+                android:layout_height="71dp"
+                android:src="@drawable/hogar" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -83,11 +86,12 @@
                 android:textColor="@color/blanco"
                 android:text="@string/hogarcantidadproducto"
                 android:textSize="18sp"
-                android:layout_marginStart="70dp"/>
+                android:layout_marginStart="120dp"/>
         </FrameLayout>
 
         <!-- Deportes -->
         <FrameLayout
+            android:id="@+id/frameDeportes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
@@ -95,9 +99,9 @@
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/deportes"/>
+                android:layout_width="96dp"
+                android:layout_height="74dp"
+                android:src="@drawable/deportes" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -105,11 +109,12 @@
                 android:textColor="@color/blanco"
                 android:text="@string/deportescantidadproducto"
                 android:textSize="18sp"
-                android:layout_marginStart="70dp"/>
+                android:layout_marginStart="120dp"/>
         </FrameLayout>
 
         <!-- Accesorios -->
         <FrameLayout
+            android:id="@+id/frameAccesorios"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="12dp"
@@ -117,9 +122,9 @@
             android:layout_marginBottom="10dp">
 
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/accesorios"/>
+                android:layout_width="99dp"
+                android:layout_height="77dp"
+                android:src="@drawable/accesorios" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -127,7 +132,7 @@
                 android:textColor="@color/blanco"
                 android:text="@string/accesorioscantidadproducto"
                 android:textSize="18sp"
-                android:layout_marginStart="70dp"/>
+                android:layout_marginStart="120dp"/>
         </FrameLayout>
 
     </LinearLayout>

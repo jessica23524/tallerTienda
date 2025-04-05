@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@color/Negro"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/imgProducto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/audifonos"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/audifonos78"
+            android:textStyle="bold"
+            android:textColor="@color/blanco" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/audifonos_apropiados"
+            android:textColor="@color/gris" />
+
+        <TextView
+            android:id="@+id/txtPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_800"
+            android:textStyle="bold"
+            android:textColor="@color/blanco" />
+
+        <Button
+            android:id="@+id/btnAgregarCarrito2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/azul"
+            android:text="@string/a_adir_al_carrito" />
+    </LinearLayout>
+
+</LinearLayout>
